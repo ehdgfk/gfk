@@ -19,7 +19,10 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#910f0f"
+      ]
     },
     "versionFirst": "3.11.1",
     "uniqCompNum": 20,
@@ -64,22 +67,22 @@
               "font-family": "'Noto Sans', sans-serif"
             },
             ".link": {
-              "font-size": "0.95rem"
+              "font-size": "0.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.029rem"
+              "font-size": "0.921rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#b3b3b3"
+              "background": "#630a0a"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#c4c4c4!important"
+              "background": "#830e0e!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#cccccc"
+              "background": "#910f0f"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -93,6 +96,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#e25041!important"
+            },
+            "A": {
+              "font-size": "12px"
             }
           },
           "_tags": [
@@ -106,9 +112,9 @@
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
-            "bgColor": "#cccccc",
-            "fontSize": "0.95",
+            "transparent": false,
+            "bgColor": "#910f0f",
+            "fontSize": "0.85",
             "fontName": {
               "name": "Noto Sans",
               "url": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",

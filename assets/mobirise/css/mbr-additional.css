@@ -440,11 +440,11 @@ h6,
   font-family: 'Noto Sans', sans-serif;
 }
 #menu-2 .link {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
 }
 #menu-2 .dropdown-item,
 #menu-2 .nav-dropdown-sm .link {
-  font-size: 1.029rem;
+  font-size: 0.921rem;
 }
 #menu-2 .link:hover,
 #menu-2 .dropdown-item:hover,
@@ -454,19 +454,19 @@ h6,
 }
 #menu-2 .link[aria-expanded="true"],
 #menu-2 .dropdown-menu {
-  background: #b3b3b3;
+  background: #630a0a;
 }
 #menu-2 .nav-dropdown-sm .link:focus,
 #menu-2 .nav-dropdown-sm .link:hover,
 #menu-2 .nav-dropdown-sm .dropdown-item:focus,
 #menu-2 .nav-dropdown-sm .dropdown-item:hover {
-  background: #c4c4c4!important;
+  background: #830e0e!important;
 }
 #menu-2 .navbar,
 #menu-2 .nav-dropdown-sm,
 #menu-2 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-2 .nav-dropdown-sm .dropdown-menu {
-  background: #cccccc;
+  background: #910f0f;
 }
 #menu-2 .bg-color.transparent .link {
   color: #ffffff;
@@ -482,6 +482,9 @@ h6,
 #menu-2 .link[aria-expanded="true"],
 #menu-2 .dropdown-item[aria-expanded="true"] {
   color: #e25041!important;
+}
+#menu-2 A {
+  font-size: 12px;
 }
 #header4-1 .mbr-section-lead {
   font-size: 17px;
